@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from api import serializers
+from api import models
 
-# Create your views here.
+
+class ResourceViewSet(viewsets.ModelViewSet):
+    serializer_class = serializers.ResourceModelSerializer
+    queryset = models.ResourceModel.objects.all()
