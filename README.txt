@@ -29,7 +29,7 @@ DATABASES = {
 ###########################
 
 О приложении
-По эндпоинту /resources/
+По эндпоинту /resources/?format=json
 Методы GET для получения списка, post для добавления
 
 Для метода POST
@@ -41,8 +41,8 @@ DATABASES = {
         "date": "2021-10-10"
     }
 
-/resources/<id> для PUT и DELETE соответсвенно
+/resources/<id>/?format=json для PUT и DELETE соответсвенно
 
 для partial update юзаем PATCH
 
-/total_cost/ возвращает /total_cost
+/total_cost/?format=json возвращает /total_cost
