@@ -41,7 +41,7 @@ DATABASES = {
         "date": "2021-10-10"
     }
 
-/resources/<id>/?format=json для PUT и DELETE соответсвенно
+/resources/<id>/?format=json для UPDATE и DELETE соответсвенно
 
 для partial update юзаем PATCH
 
